@@ -1,0 +1,23 @@
+{
+  "ecmaVersion": 8,
+  "libs": [],
+  "loadEagerly": [],
+  "dontLoad": [
+    "node_modules/**"
+  ],
+  "plugins": {
+    "commonjs": {},
+    "node": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    },
+    "doc_comment": {
+      "fullDocs": true,
+      "strong": false
+    },
+    "complete_strings": {
+      "maxLength": 15
+    }
+  }
+}
